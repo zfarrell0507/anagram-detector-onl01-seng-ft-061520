@@ -2,8 +2,14 @@ class Anagram
   
   @@anagrams = []
   def initialize(anagram)
-    @@anagrams = 
+    @anagrams = anagram
+    @@anagrams << @anagrams
   end 
+  
+  def match
+    @@anagrams.each do |word|
+      
+      
 
 
 
